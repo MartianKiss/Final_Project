@@ -9,6 +9,15 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
+                    <Link to="/despre">Despre</Link>
+                </li>
+                <li>
+                    <Link to="/galerie">Galerie</Link>
+                </li>
+                <li>
+                    <Link to="/obiective-turistice">Obiective Turistice</Link>
+                </li>
+                <li>
                     <Link to="/contact">Contact</Link>
                 </li>
             </ul>

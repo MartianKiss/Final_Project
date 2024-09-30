@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 2rem;
+}
+.Bun-venit{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: hold;
+}
+.h3{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    color: white;
+    font-size: 2rem;
+}
+.container-text{
+    display: flex;
+    flex-direction: row;
+    margin :3rem;
+}
+.text-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.title{
+    color: white;
+    font-size: 1rem;
+    font-weight: hold;
+    text-align: center;
+}
+.text{
+    font-weight: 600;
+    margin-right: 2rem;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.btn button{
+    width: 260px;
+    height: 60px;
+    border: none;
+    text-align: center;
+    margin: 3rem;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.container-text img {
+    width: 50vw;
+    height: 70vh;
+
+}
+.atractii{
+    display: flex;
+    flex-direction: row;
+}
+.atractii img{
+    margin-left: 3rem;
+}
+.btn_1 button{
+    width: 300px;
+    height: 60px;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.carusel-container {
+    width: 75%;  /* Ajustează lățimea caruselului */
+    height: 400px; /* Ajustează înălțimea caruselului */
+    margin: 0 auto; 
+  }
+  
+  .carusel-container img {
+    width: 60vw;
+    height: 80vh;
+    object-fit: contain; /* Asigură că imaginile acoperă complet zona */
+  }

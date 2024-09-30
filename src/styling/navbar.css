@@ -1,12 +1,21 @@
 .navbar {
     background-color: #333;
     padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-links {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-links li {
@@ -16,7 +25,7 @@
 .navbar-links a {
     color: white;
     text-decoration: none;
-    transition: 0.25s;
+    transition: color 0.25s;
 
     &:hover {
         color: #ddd;

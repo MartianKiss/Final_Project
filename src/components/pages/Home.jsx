@@ -78,15 +78,36 @@ const Home = () => {
             </div>
             <div className="descopera">
                 <h1>Descopera cabanele noastre dincolo de nori</h1>
-                <div className="descopera_img">
-                    <div>
-                        <img src="../../../imagini/A1.jpg" alt="" />
+                <div className="descopera_container">
+                    <div className="descopera_img1">
+                        <div>
+                            <img src="../../../imagini/A1.jpg" alt="" />
+                        </div>
+                        <div className="overlay">
+                            <h1>Casa Boema</h1>
+                            <p>Capacitate: 2+1 persoane</p>
+                            <button>Rezerva</button>
+                        </div>
                     </div>
-                    <div>
-                        <img src="../../../imagini/a2.jpg" alt="" />
+                    <div className="descopera_img2">
+                        <div>
+                            <img src="../../../imagini/a2.jpg" alt="" />
+                        </div>
+                        <div className="overlay">
+                            <h1>Casa Boema</h1>
+                            <p>Capacitate: 2+1 persoane</p>
+                            <button>Rezerva</button>
+                        </div>
                     </div>
-                        <div><img src="../../../imagini/ab1.1.jpg" alt="" />
+                    <div className="descopera_img3">
+                        
+                        <div className="overlay">
+                            <h1>Casa Boema</h1>
+                            <p>Capacitate: 2+1 persoane</p>
+                            <button>Rezerva</button>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
             <Modal show={showForm} onClose={handleCloseModal}>

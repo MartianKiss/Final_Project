@@ -1,31 +1,40 @@
-.container{
+.Bun-venit{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+
+    margin-bottom: 0;
+}
+.Bun{
+margin-bottom: 0;
+}
+.Bun-venit h3{
+    margin-top: 0;
+    padding: 0;
+    color: white;
+    font-size: 1rem;
+}
+.bunText{
+    font-weight: 600;
+    margin: 4rem;
+}
+.container-carusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    margin-top: 2rem;
-}
-.Bun-venit{
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2.5rem;
-    font-weight: hold;
-}
-.h3{
-    position: absolute;
-    top: 30%;
-    left: 1%;
-    color: white;
-    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 .container-text{
     display: flex;
     flex-direction: row;
     margin :3rem;
+    background-color: rgb(53, 52, 66);
+    border-radius: 50px;
 }
 .text-title{
     display: flex;
@@ -59,15 +68,20 @@
 }
 .container-text img {
     width: 50vw;
-    height: 70vh;
-
+    height: 100%;
+    object-fit: cover;
 }
 .atractii{
     display: flex;
     flex-direction: row;
+    margin :3rem;
+    background-color: rgb(53, 52, 66);
+    border-radius: 50px;
 }
 .atractii img{
-    margin-left: 3rem;
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
 }
 .btn_1 button{
     width: 300px;
@@ -77,4 +91,19 @@
     border-radius: 20px;
     font-size: 30px;
     text-align: center;
+}
+.descopera{
+    display: flex;
+    flex-direction: column;
+
+}
+.descopera_img{
+    display: flex;
+    flex-direction: row;
+
+}
+.descopera_img img{
+    width: 200px;
+    height: 250px;
+    padding: 2rem;
 }

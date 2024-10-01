@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "../../styling/rezervForm.css"; // Importă stilurile pentru calendar
+import "react-datepicker/dist/react-datepicker.css";
 
 const RezervForm = () => {
 //   const [startDate, setStartDate] = useState(null); // Stochează data selectată

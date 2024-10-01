@@ -6,10 +6,10 @@ const Navbar = () => {
         <nav className="navbar">
             <ul className="navbar-links">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/despre">Despre</Link>
+                    <Link to="/despre" className={location.pathname === "/despre" ? "active" : ""}>Despre</Link>
                 </li>
                 <li>
                     <Link to="/galerie">Galerie</Link>

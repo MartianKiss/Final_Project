@@ -22,14 +22,20 @@ const Home = () => {
     return (
         <div className="Body">
             <Navbar />
-            <div className="container">
+            <div className="Bun-venit">
+                    <h1 className="Bun">Bun venit</h1>
+                    <h3 className="h3">La cabana noastră</h3>
+                    <p className="bunText">La noi la cabana  este un proiect de suflet care s-a născut din 
+                        dorința de a restaura o casa veche din Munții Apuseni, care 
+                        inițial a fost gândita ca o casa de vacanta a familiei si care
+                         ulterior a fost pusa in circuitul turistic pentru a împărtăși 
+                         si altora frumusețea si energia acestui loc</p>
+                </div>
+            <div className="container-carusel">
                 <div className="carusel-container">
                     <Carusel/>
                 </div>
-                <div>
-                    <h1 className="Bun-venit">Bun venit</h1>
-                    <h3 className="h3">La cabana noastră</h3>
-                </div>
+                
             </div>
             <div className="container-text">
                 <div className="text-title">
@@ -70,10 +76,24 @@ const Home = () => {
                         </div>
                     </div>
             </div>
+            <div className="descopera">
+                <h1>Descopera cabanele noastre dincolo de nori</h1>
+                <div className="descopera_img">
+                    <div>
+                        <img src="../../../imagini/A1.jpg" alt="" />
+                    </div>
+                    <div>
+                        <img src="../../../imagini/a2.jpg" alt="" />
+                    </div>
+                        <div><img src="../../../imagini/ab1.1.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
             <Modal show={showForm} onClose={handleCloseModal}>
                 <RezervForm />
             </Modal> {/* Afișează modalul cu formularul în interior */}
         </div>
+        
     )  
 };
 

@@ -1,11 +1,58 @@
-.carusel-container {
-    width: 75%;  /* Ajustează lățimea caruselului */
-    height: 400px; /* Ajustează înălțimea caruselului */
-    margin: 0 auto; 
-  }
+
   
   .carusel-container img {
     width: 60vw;
     height: 80vh;
     object-fit: contain; /* Asigură că imaginile acoperă complet zona */
+  }
+  .carusel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Stilizare pentru butoanele laterale */
+  .slick-prev, .slick-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .slick-prev {
+    left: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Indicatorii de sub poze */
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.5;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #ffd700;
   }

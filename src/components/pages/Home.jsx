@@ -1,27 +1,13 @@
-import {useState,} from "react";
-import Navbar from "../complex/Navbar";
 import "../../styling/Home.css";
 import "../../styling/Carusel.css"
 import Carusel from "../complex/Carusel";
-import Modal from "../complex/Modal"; // Importă componenta Modal
-import RezervForm from "../complex/rezervForm";
 import { Link } from "react-router-dom";
 
 
 const Home = () => {
-    const [showForm, setShowForm] = useState(false);
-
-    const handleButtonClick = () => {
-        setShowForm(true); // Afișează modalul când se apasă butonul
-    };
-
-    const handleCloseModal = () => {
-        setShowForm(false); // Închide modalul
-    };
 
     return (
         <div className="Body">
-            <Navbar />
             <div className="Bun-venit">
                     <h1 className="Bun">Bun venit</h1>
                     <h3 className="h3">La cabana noastră</h3>
@@ -35,7 +21,6 @@ const Home = () => {
                 <div className="carusel-container">
                     <Carusel/>
                 </div>
-                
             </div>
             <div className="container-text">
                 <div className="text-title">
@@ -49,7 +34,7 @@ const Home = () => {
                          </p>
                      </div>
                      <div className="btn">
-                        <button onClick={handleButtonClick}>Rezervă acum ➮</button>
+                        <button >Rezervă ➮</button>
                      </div>
                     </div>
                 <div>
@@ -80,39 +65,37 @@ const Home = () => {
                 <h1>Descopera cabanele noastre dincolo de nori</h1>
                 <div className="descopera_container">
                     <div className="descopera_img1">
-                        <div>
-                            <img src="../../../imagini/A1.jpg" alt="" />
-                        </div>
                         <div className="overlay">
                             <h1>Casa Boema</h1>
                             <p>Capacitate: 2+1 persoane</p>
-                            <button>Rezerva</button>
+                            <Link to="galerie">
+                                <button>Rezerva</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="descopera_img2">
-                        <div>
-                            <img src="../../../imagini/a2.jpg" alt="" />
-                        </div>
                         <div className="overlay">
                             <h1>Casa Boema</h1>
                             <p>Capacitate: 2+1 persoane</p>
-                            <button>Rezerva</button>
+                            <Link to="galerie">
+                                <button>Rezerva</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="descopera_img3">
-                        
                         <div className="overlay">
                             <h1>Casa Boema</h1>
-                            <p>Capacitate: 2+1 persoane</p>
-                            <button>Rezerva</button>
+                            <p>Capacitate: 4+2 persoane</p>
+                            <Link to="galerie">
+                                <button>Rezerva</button>
+                            </Link>
                         </div>
                     </div>
-                    
                 </div>
+                <Link to="galerie">
+                    <button className="vezi">Vezi toate cabanele noastre ➮</button>
+                </Link>
             </div>
-            <Modal show={showForm} onClose={handleCloseModal}>
-                <RezervForm />
-            </Modal> {/* Afișează modalul cu formularul în interior */}
         </div>
         
     )  

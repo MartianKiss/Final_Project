@@ -1,20 +1,80 @@
 .container0{
     display: flex;
     flex-direction: row;
+    margin: 3rem;
 }
 .descriere{
     display: flex;
     flex-direction: column;
     width: 500px;
     margin-left: 5rem;
+    margin-right: 2rem;
+
+}
+.descriere h1{
+    font-weight: 700px;
+    font-size: 5rem;
+    text-align: right;
 }
 .container1{
     display: flex;
     flex-direction: column;
     margin: 1rem;
 }
+.descriere2{
+    margin-right: 3rem;
+}
 .descriere-suplim{
     display: flex;
     flex-direction: row;
     margin: 1rem;
 }
+.descriere-suplim h2{
+    font-weight: 700px;
+    font-size: 2rem;
+}
+.container_img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../imagini/ab1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+.container_csp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    background-image: url(../../../imagini/ab5.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+
+}
+.review0{
+    background-color: rgba(53, 52, 66, 0.753);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+.review1{
+    margin: 3rem;
+    background-color: rgba(53, 52, 66, 0.753);
+    border-radius: 10px;
+    padding: 3rem;
+}
+.review2{
+    background-color: rgb(53, 52, 66, 0.753);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-right: 3rem;
+}
+

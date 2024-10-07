@@ -10,17 +10,15 @@ const footer = () =>{
                             <div className="col-sm-6-col-md-3-ite">
                                 <h3>Services</h3>
                                 <ul>
-                                    <li><a href="#">Web design</a></li>
-                                    <li><a href="#">Development</a></li>
-                                    <li><a href="#">Hosting</a></li>
+                                    <li><a href="/galerie">Rezervare</a></li>
+                                    <li><a href="/obiective-turistice">What to do?</a></li>
                                 </ul>
                             </div>
                             <div className="col-sm-6-col-md-3-item">
                                 <h3>About</h3>
                                 <ul>
-                                    <li><a href="#">Company</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="/despre">Despre noi</a></li>
+                                    <li><a href="/contacte">Ne gasesti</a></li>
                                 </ul>
                             </div>
                             

@@ -123,7 +123,7 @@ margin-bottom: 0;
 }
 .descopera_img2{
     position: relative;
-    background-image: url("../../../imagini/a2.jpg");
+    background-image: url("../../../imagini/img_009.jpg");
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -158,7 +158,7 @@ margin-bottom: 0;
 }
 .overlay h1{
     font-size: 2rem;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .overlay button{
     width: 100px;

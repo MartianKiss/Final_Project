@@ -75,7 +75,7 @@ const Home = () => {
                     </div>
                     <div className="descopera_img2">
                         <div className="overlay">
-                            <h1>Casa Boema</h1>
+                            <h1>Casa deasupra de nori</h1>
                             <p>Capacitate: 2+1 persoane</p>
                             <Link to="galerie">
                                 <button>Rezerva</button>

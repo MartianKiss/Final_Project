@@ -1,8 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.main_h{
+    font-size: 5rem;
+}
+.desc_rez{
+    width: 900px;
+    text-align: left;
+    margin-bottom: 3rem;
+}
 .cab_1{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2rem;
+    padding: 2rem;
+
+    border-radius: 20px;
+    background-color: rgb(53, 52, 66);
+    margin-bottom: 5rem;
+}
+.cont_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700px;
+    padding-bottom: 0.5rem;
 }
 button{
     background: none;
@@ -17,14 +49,12 @@ button img{
     width: 100px; /* Ajustează dimensiunea imaginii */
     height: auto;
 }
-
 .cab_1_container{
     display: flex;
     flex-direction: row;
 }
 .img_1 img{
     border: 1px solid #ddd;
-
     width: 300px;
     height: 518px;
     margin: 5px;
@@ -55,7 +85,6 @@ button img{
     height: 160px;
     margin: 5.5px;
 }
-
 .cab_1 img:hover{
     box-shadow: 0 0 2px 1px rgba(188, 189, 189, 0.997);
 }
@@ -69,13 +98,38 @@ button .hover-text {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent */
-    color: white;
+    color: rgb(253, 253, 252);
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-
 button:hover .hover-text {
     background: none;
     opacity: 1;
-
 }
+.cont_mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+.cont_title_rez{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-image: url(../../../imagini/img_rez.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+}
+.rez{
+    border-radius: 20px;
+    padding-left: 2rem;
+    background-color: rgba(53, 52, 66, 0.753);
+}
+

@@ -34,7 +34,9 @@ const Home = () => {
                          </p>
                      </div>
                      <div className="btn">
-                        <button >Rezervă ➮</button>
+                        <Link to="galerie">
+                            <button >Rezervă ➮</button>
+                        </Link>
                      </div>
                     </div>
                 <div>
@@ -84,7 +86,7 @@ const Home = () => {
                     </div>
                     <div className="descopera_img3">
                         <div className="overlay">
-                            <h1>Casa Boema</h1>
+                            <h1>Montesse Chalet</h1>
                             <p>Capacitate: 4+2 persoane</p>
                             <Link to="galerie">
                                 <button>Rezerva</button>

@@ -1,0 +1,58 @@
+.container_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    height: 100vh;
+}
+
+.continut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 15rem;
+}
+.h1_title{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.mail_adresa{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.mail{
+    margin-right: 2rem;
+}
+.mail h3{
+    margin-bottom: 3rem;
+}
+.mail img{
+    width: 50px;
+    height: 40px;
+    border-radius: 16px 30px;
+    background-color: rgb(149, 149, 149);
+}
+.adresa img{
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    background-color: rgb(149, 149, 149);
+}
+.social_media_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.social_media_links img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(149, 149, 149);
+    border-radius: 15px;
+    margin: 10px;
+}

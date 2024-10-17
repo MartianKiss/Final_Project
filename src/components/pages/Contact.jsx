@@ -26,18 +26,21 @@ export const Contact = () => {
                     <div className="mail_adresa">
                         <div className="mail">
                             <h3>andrei.martianu@gmail.com</h3>
-                            <img src="../../../imagini/email.jpg" alt="" />
+                            <a href="https://mail.google.com/mail" target="_blank"><img src="../../../imagini/email.jpg" alt="" className="facebook"/></a>
+
                         </div>
                         <div className="adresa">
                             <h3>Matisesti 448, Com. Horea, Jud. Alba</h3>
-                            <img src="../../../imagini/location.jpg" alt="" />
+                            <a href="https://www.google.com/maps/place/Mătișești,+Romania/@46.507903,22.906247,10z/data=!4m6!3m5!1s0x4748d719b4b808ad:0xb370d1b1f63c72d3!8m2!3d46.5069962!4d22.9061388!16s%2Fg%2F122tjcln?hl=en&entry=ttu&g_ep=EgoyMDI0MTAwNy4xIKXMDSoASAFQAw%3D%3D" target="_blank"><img src="../../../imagini/location.jpg" alt=""/></a>
+
                         </div>
                     </div>
                     <h1>Ne poti contacta direct pe
                     retelele sociale:</h1>
                     <div className="social_media_links">
-                        <img src="../../../imagini/facebook.png" alt="" />
-                        <img src="../../../imagini/instagram.png" alt="" />
+                    <a href="https://www.facebook.com" target="_blank"><img src="../../../imagini/facebook.png" alt="" className="facebook"/></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="../../../imagini/instagram.png" alt="" className="instagram"/></a>
+
                     </div>
                 </div>
                 

@@ -1,0 +1,36 @@
+.ob_tur{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+.container_o_t{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.title_text{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    text-align: center;
+}
+.img_contai{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+}
+.img_contain{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+}
+.img_contai img{
+    border-radius: 0 20px 20px 0;
+}
+.img_contain img{
+    border-radius: 20px 0 0 20px;
+}

@@ -19,7 +19,7 @@ const RezervForm = () => {
   return (
     <>
     <form onSubmit={handleSubmit} className="reservation-form">
-      <h2>Rezervare la Hotel</h2>
+      <h2>Formular de rezervare</h2>
 
       {/* Nume */}
       <div className="form-group">
@@ -30,6 +30,7 @@ const RezervForm = () => {
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
+          placeholder="Nume și Prenume"
         />
       </div>
 
@@ -42,27 +43,36 @@ const RezervForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
+          placeholder="ali.ba.ba@ceva.ro"
         />
       </div>
 
       {/* Data sosirii */}
       <div className="form-group">
         <label htmlFor="arrival-date">Data sosirii:</label>
-        <DatePicker
-        selected={startDate}
-        onChange={(date) => setStartDate(date)}
-        selectsStart
-        startDate={startDate}
-        endDate={endDate}
-      />
-      <DatePicker
-        selected={endDate}
-        onChange={(date) => setEndDate(date)}
-        selectsEnd
-        startDate={startDate}
-        endDate={endDate}
-        minDate={startDate}
-      />
+        <div className="date"> 
+          <div className="sosire">
+            <DatePicker
+              selected={startDate}
+              onChange={(date) => setStartDate(date)}
+              selectsStart
+              startDate={startDate}
+              endDate={endDate}
+            />
+          </div>
+          <div className="plecare">
+            <DatePicker
+              selected={endDate}
+              onChange={(date) => setEndDate(date)}
+              selectsEnd
+              startDate={startDate}
+              endDate={endDate}
+              minDate={startDate}
+            />
+          </div>
+            
+          
+        </div>
       </div>
 
       {/* Număr de persoane */}
@@ -79,7 +89,7 @@ const RezervForm = () => {
       </div>
 
       {/* Trimite formularul */}
-      <button type="submit">Trimite Rezervarea</button>
+      <button className="btn" type="submit">Trimite Rezervarea</button>
     </form>
     </>
   );

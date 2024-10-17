@@ -34,10 +34,13 @@ const Galerie = () =>{
         <div className="cab_1">
           <div className="cab_1_container">
             <div className="img_1">
-            <button onClick={handleButtonClick}>
-              <img src="../../../imagini/img_001.jpg" alt="" />
-              <h1 className="hover-text">Rezerva ➮</h1>
-            </button>
+              <button onClick={handleButtonClick}>
+                <img src="../../../imagini/img_001.jpg" alt="" />
+                
+                <h1 className="hover-text">Rezerva ➮</h1>
+              </button>
+            <p>Pentru a Rezerva apasati click <br />
+               pe orice inagine!</p>
             </div>
             <div className="img_2-3">
               <div className="img_2">

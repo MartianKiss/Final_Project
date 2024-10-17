@@ -33,7 +33,7 @@ const Home = () => {
                           
                          </p>
                      </div>
-                     <div className="btn">
+                     <div className="spre-galerie">
                         <Link to="galerie">
                             <button >Rezervă ➮</button>
                         </Link>
@@ -71,7 +71,7 @@ const Home = () => {
                             <h1>Casa Boema</h1>
                             <p>Capacitate: 2+1 persoane</p>
                             <Link to="galerie">
-                                <button>Rezerva</button>
+                                <button  className="la-galerie">Rezerva</button>
                             </Link>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const Home = () => {
                             <h1>Casa deasupra de nori</h1>
                             <p>Capacitate: 2+1 persoane</p>
                             <Link to="galerie">
-                                <button>Rezerva</button>
+                                <button className="la-galerie">Rezerva</button>
                             </Link>
                         </div>
                     </div>
@@ -89,13 +89,13 @@ const Home = () => {
                             <h1>Montesse Chalet</h1>
                             <p>Capacitate: 4+2 persoane</p>
                             <Link to="galerie">
-                                <button>Rezerva</button>
+                                <button className="la-galerie">Rezerva</button>
                             </Link>
                         </div>
                     </div>
                 </div>
                 <Link to="galerie">
-                    <button className="vezi">Vezi toate cabanele noastre ➮</button>
+                    <button className="vezi"><h3>Vezi toate cabanele noastre ➮</h3></button>
                 </Link>
             </div>
         </div>

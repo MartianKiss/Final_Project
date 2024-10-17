@@ -17,7 +17,6 @@
     flex-direction: row;
     justify-content: center;
     padding: 2rem;
-
     border-radius: 20px;
     background-color: rgb(53, 52, 66);
     margin-bottom: 5rem;
@@ -53,10 +52,14 @@ button img{
     display: flex;
     flex-direction: row;
 }
+p{
+    margin-top: none;
+    text-align: center;
+}
 .img_1 img{
     border: 1px solid #ddd;
     width: 300px;
-    height: 518px;
+    height: 420px;
     margin: 5px;
     border-radius: 4px;
 }
@@ -98,7 +101,7 @@ button .hover-text {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.5); /* Fundal semi-transparent */
-    color: rgb(253, 253, 252);
+    color: rgb(54, 99, 245);
     opacity: 0;
     transition: opacity 0.3s ease;
 }

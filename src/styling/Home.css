@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+
 .Bun-venit{
     display: flex;
     flex-direction: column;
@@ -9,6 +16,7 @@
 }
 .Bun{
 margin-bottom: 0;
+
 }
 .Bun-venit h3{
     margin-top: 0;
@@ -52,20 +60,25 @@ margin-bottom: 0;
     font-weight: 600;
     margin-right: 2rem;
 }
-.btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+.spre-galerie{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
 }
-.btn button{
+.spre-galerie button{
     width: 260px;
     height: 60px;
     border: none;
     text-align: center;
+    color: white;
     margin: 3rem;
     border-radius: 20px;
     font-size: 30px;
     background-color: rgb(18, 18, 83);
+}
+.spre-galerie button:hover{
+    cursor: pointer;
+    background-color: rgb(54, 99, 245);
 }
 .container-text img {
     width: 50vw;
@@ -92,7 +105,12 @@ margin-bottom: 0;
     border-radius: 20px;
     font-size: 30px;
     text-align: center;
+    color: white;
     background-color: rgb(18, 18, 83);
+}
+.btn_1 button:hover{
+    cursor: pointer;
+    background-color: rgb(54, 99, 245);
 }
 .descopera{
     display: flex;
@@ -124,6 +142,7 @@ h1{
     align-items: center;
     border-radius: 15px;
     margin: 2rem;
+    color: white;
 }
 .descopera_img2{
     position: relative;
@@ -151,6 +170,11 @@ h1{
     border-radius: 15px;
     margin: 2rem;
 }
+.la-galerie{
+    border: solid 2px;
+    color: white;
+    background-color: rgb(18, 18, 83);
+}
 .overlay{
     background:linear-gradient(135deg,rgba(0, 0, 0, 0.7), rgba(355, 255, 255, 0.2)); /*rgba(145, 142, 142, 0.432);*/
     text-align: center;
@@ -173,7 +197,7 @@ h1{
     font-size: 1rem;
 }
 .overlay button:hover{
-    background-color: rgb(18, 18, 83);
+    background-color: rgb(54, 99, 245);
 }
 .overlay:hover {
     background: none;
@@ -192,6 +216,7 @@ h1{
     border-radius: 20px;
     font-size: 30px;
     text-align: center;
+    color: white;
     background-color: rgb(18, 18, 83);
     margin-bottom: 4rem;
 }

@@ -5,7 +5,7 @@ const footer = () =>{
 
         <div className="footer-dark">
             <footer>
-                    <div className="container">
+                    <div className="container_footer">
                         <div className="row">
                             <div className="col-sm-6-col-md-3-ite">
                                 <h3>Services</h3>
@@ -24,8 +24,7 @@ const footer = () =>{
                             
                         </div>
                         <div className="col-md-6-item-text">
-                            <h3>Company Name</h3>
-                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                            
                         </div>
                             <div className="col item social">
                                 <a href="https://www.facebook.com" target="_blank"><img src="../../../imagini/facebook.png" alt="" className="facebook"/></a>

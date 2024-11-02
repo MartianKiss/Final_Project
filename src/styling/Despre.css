@@ -1,3 +1,8 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container0{
     display: flex;
     flex-direction: row;
@@ -13,8 +18,12 @@
 }
 .descriere h1{
     font-weight: 700px;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: right;
+    margin-bottom: 1rem;
+}
+.descriere p{
+    margin-bottom: 1rem;
 }
 .container1{
     display: flex;
@@ -40,7 +49,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    margin-bottom: 3rem;
+
     margin-right: 2rem;
 }
 .container_csp{
@@ -58,6 +67,14 @@
     margin-left: 4rem;
     margin-bottom: 3rem;
 
+}
+.mid{
+    text-align: center;
+    width: 1000px;
+    margin-bottom: 3rem;
+}
+.mid p{
+    margin: 1rem;
 }
 .review0{
     background-color: rgba(53, 52, 66, 0.753);

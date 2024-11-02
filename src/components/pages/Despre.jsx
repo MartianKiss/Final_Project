@@ -2,9 +2,9 @@ import "../../styling/Despre.css"
 
 const Despre = () =>{
     return(
-        <div>
+        <div className="body">
             <div className="container0">
-            
+
                 <div className="descriere">
                     <h1>Povestea noastra</h1>
                     <p>La noi la cabana este un proiect de suflet care s-a născut din dorința de
@@ -37,6 +37,15 @@ const Despre = () =>{
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="mid">
+                <h2>Dacă planul tău este să te relaxezi, aici este locul potrivit!</h2>
+                <p>Căsuța și curtea sunt atât de faine, încât cu greu îți vine să pleci să te plimbi. 
+                    Totuși, recomandarea mea este să o iei la pas, dimineața la răsărit, 
+                    să te bucuri de primele raze de lumină, aer curat și o atmosferă de neuitat.</p>
+                <p>Comunicarea cu gazdele a fost excelentă. Când am ajuns ne-au surprins cu 
+                    un frigider plin de bunătăți: slănină, zacuscă, brânză, cașcaval, salam 
+                    de biscuiți, țuică, vișinată, etc.</p>
             </div>
             <div className="container_csp">
                 <div className="review0"><p>Ceva mai frumos nu există. Pensiunea de vis, 

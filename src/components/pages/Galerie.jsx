@@ -37,22 +37,23 @@ const Galerie = () =>{
               <button onClick={handleButtonClick}>
                 <img src="../../../imagini/img_001.jpg" alt="" />
                 
-                <h1 className="hover-text">Rezerva ➮</h1>
+                <h1 className="hover-text">Rezerva</h1>
               </button>
-            <p>Pentru a Rezerva apasati click <br />
-               pe orice inagine!</p>
+              <p>Pentru a Rezerva apasati click <br />
+                pe orice inagine!
+              </p>
             </div>
             <div className="img_2-3">
               <div className="img_2">
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_007.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
             < div className="img_3">
               <button onClick={handleButtonClick}>
                 <img src="../../../imagini/img_008.jpg" alt="" />
-                <h1 className="hover-text">Rezerva ➮</h1>
+                <h1 className="hover-text">Rezerva</h1>
               </button>
             </div>
           </div>
@@ -62,19 +63,19 @@ const Galerie = () =>{
             <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_002.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
             <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_004.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
             </div>
             <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_006.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
             </div>
             </div>
@@ -82,19 +83,19 @@ const Galerie = () =>{
               <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_003.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
               <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_005.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
                 </div>
               <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_009.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
             </div>
@@ -115,42 +116,42 @@ const Galerie = () =>{
         <div className="cab_1">
           <div className="img_all">
             <div className="all">
-            <div>
-                <button onClick={handleButtonClick}>
-                  <img src="../../../imagini/img_200.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
-                </button>
+              <div>
+                  <button onClick={handleButtonClick}>
+                    <img src="../../../imagini/img_200.jpg" alt="" />
+                    <h1 className="hover-text">Rezerva</h1>
+                  </button>
+                </div>
+              <div>
+                  <button onClick={handleButtonClick}>
+                    <img src="../../../imagini/img_300.jpg" alt="" />
+                    <h1 className="hover-text">Rezerva</h1>
+                  </button>
               </div>
-            <div>
-                <button onClick={handleButtonClick}>
-                  <img src="../../../imagini/img_300.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
-                </button>
-            </div>
-            <div>
-                <button onClick={handleButtonClick}>
-                  <img src="../../../imagini/img_500.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
-                </button>
-            </div>
+              <div>
+                  <button onClick={handleButtonClick}>
+                    <img src="../../../imagini/img_500.jpg" alt="" />
+                    <h1 className="hover-text">Rezerva</h1>
+                  </button>
+              </div>
             </div>
             <div className="all_1">
               <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_600.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
               <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_800.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
                 </div>
               <div>
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_700.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
             </div>
@@ -160,21 +161,24 @@ const Galerie = () =>{
               <div className="img_2">
                 <button onClick={handleButtonClick}>
                   <img src="../../../imagini/img_100.jpg" alt="" />
-                  <h1 className="hover-text">Rezerva ➮</h1>
+                  <h1 className="hover-text">Rezerva</h1>
                 </button>
               </div>
             < div className="img_3">
               <button onClick={handleButtonClick}>
                 <img src="../../../imagini/img_400.jpg" alt="" />
-                <h1 className="hover-text">Rezerva ➮</h1>
+                <h1 className="hover-text">Rezerva</h1>
               </button>
             </div>
           </div>
-          <div className="img_1">
+            <div className="img_1">
               <button onClick={handleButtonClick}>
                 <img src="../../../imagini/img_900.jpg" alt="" />
-                <h1 className="hover-text">Rezerva ➮</h1>
+                <h1 className="hover-text">Rezerva</h1>
               </button>
+              <p>Pentru a Rezerva apasati click <br />
+               pe orice inagine!
+              </p>
             </div>
           </div>
         </div>
@@ -195,20 +199,23 @@ const Galerie = () =>{
                 <div className="img_1">
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab4.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
+                  <p>Pentru a Rezerva apasati click <br />
+                    pe orice inagine!
+                  </p>
                 </div>
                 <div className="img_2-3">
                   <div className="img_2">
                     <button onClick={handleButtonClick}>
                       <img src="../../../imagini/ab1.jpg" alt="" />
-                      <h1 className="hover-text">Rezerva ➮</h1>
+                      <h1 className="hover-text">Rezerva</h1>
                     </button>
                   </div>
                 < div className="img_3">
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab1.1.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
                 </div>
               </div>
@@ -220,19 +227,19 @@ const Galerie = () =>{
               <div>
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab2.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
                 </div>
               <div>
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab5.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
               </div>
               <div>
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab7.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
               </div>
               </div>
@@ -240,19 +247,19 @@ const Galerie = () =>{
                 <div>
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/abc.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
                 </div>
                 <div>
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab6.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
                   </div>
                 <div>
                   <button onClick={handleButtonClick}>
                     <img src="../../../imagini/ab3.jpg" alt="" />
-                    <h1 className="hover-text">Rezerva ➮</h1>
+                    <h1 className="hover-text">Rezerva</h1>
                   </button>
                 </div>
               </div>

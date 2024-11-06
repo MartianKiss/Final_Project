@@ -273,7 +273,7 @@ const Galerie = () =>{
 
               După trimiterea cererii de rezervare veți aștepta confirmarea disponibilității pe e-mail. 
               După confirmare veți primi și instrucțiunile de plată : se achita integral în termen de 48 de 
-              ore de la rezervare. În caz de anulare  până la data de intrare penalizarea este de 100%.
+              ore de la rezervare.
               </p>
               <p className="desc_rez">Oferta poate fi supusă unor condiții speciale pentru perioadele de sărbători, la fiecare rezervare 
               veți primi pe e-mail și contractul aferent cu toate condițiile.</p>

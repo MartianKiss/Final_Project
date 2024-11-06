@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar">
             <ul className="navbar-links">
                 <li>
-                    <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>
+                    <Link to="/" className={location.pathname === "/" ? "active" : ""}>Acasă</Link>
                 </li>
                 <li>
                     <Link to="/despre" className={location.pathname === "/despre" ? "active" : ""}>Despre noi</Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <Link to="/obiective-turistice" className={location.pathname === "/obiective-turistice" ? "active" : ""}>Obiective Turistice</Link>
                 </li>
                 <li>
-                    <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact</Link>
+                    <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contacte</Link>
                 </li>
             </ul>
         </nav>

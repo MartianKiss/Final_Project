@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "../../styling/rezervForm.css"; // Importă stilurile pentru calendar
@@ -13,8 +14,8 @@ const RezervForm = () => {
     e.preventDefault();
     alert(`Rezervarea a fost trimisă!\nNume: ${name}\nEmail: ${email}\nData sosirii: ${startDate?.toLocaleDateString()}\nNumăr de persoane: ${guests}`);
   };
-  const [startDate, setStartDate] = useState(new Date("2024/01/01"));
-  const [endDate, setEndDate] = useState(new Date("2024/01/01"));
+  const [startDate, setStartDate] = useState(new Date());
+  const [endDate, setEndDate] = useState(new Date());
 
   return (
     <>
@@ -51,25 +52,26 @@ const RezervForm = () => {
       <div className="form-group">
         <label htmlFor="arrival-date">Data sosirii:</label>
         <div className="date"> 
-          <div className="sosire">
-            <DatePicker
-              selected={startDate}
-              onChange={(date) => setStartDate(date)}
-              selectsStart
-              startDate={startDate}
-              endDate={endDate}
-            />
-          </div>
-          <div className="plecare">
-            <DatePicker
-              selected={endDate}
-              onChange={(date) => setEndDate(date)}
-              selectsEnd
-              startDate={startDate}
-              endDate={endDate}
-              minDate={startDate}
-            />
-          </div>
+        <div className="sosire">
+        <DatePicker
+          selected={startDate}
+          onChange={(date) => setStartDate(date)}
+          selectsStart
+          startDate={startDate}
+          endDate={endDate}
+          minDate={new Date()} // data minimă setată la data curentă
+        />
+      </div>
+      <div className="plecare">
+        <DatePicker
+          selected={endDate}
+          onChange={(date) => setEndDate(date)}
+          selectsEnd
+          startDate={startDate}
+          endDate={endDate}
+          minDate={startDate} // data minimă este data de sosire
+        />
+      </div>
             
           
         </div>

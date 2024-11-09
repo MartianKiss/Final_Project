@@ -28,9 +28,9 @@ const Home = () => {
                         <h1>Petrece o vacanță liniștită.</h1>
                     </div>
                     <div className="text">
-                         <p>Cu vedere la munți, dincolo de nori locația noastră este dedicată oamenilor care iubesc,respectă natura și liniștea ei, 
-                         astfel ne dorim ca cei ce ne calcă pragul să fie în asentimentul nostru. 
-                          
+                         <p>Cu vedere la munți, dincolo de nori locația noastră este 
+                            dedicată oamenilor care iubesc,respectă natura și liniștea ei, 
+                            astfel ne dorim ca cei ce ne calcă pragul să fie în asentimentul nostru. 
                          </p>
                      </div>
                      <div className="spre-galerie">

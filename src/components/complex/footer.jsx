@@ -18,7 +18,7 @@ const footer = () =>{
                                 <h3>About</h3>
                                 <ul>
                                     <li><a href="/despre">Despre noi</a></li>
-                                    <li><a href="/contacte">Ne gasesti</a></li>
+                                    <li><a href="/contact">Ne gasesti</a></li>
                                 </ul>
                             </div>
                             
